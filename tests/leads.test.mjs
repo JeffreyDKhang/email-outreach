@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {parseCSV,prepareImport,fields,warnings} from '../app/domain/leads.mjs';
+const mapping=Object.fromEntries(fields.map(k=>[k,k]));
+test('real demo fixture imports 40 unique leads and reimport preserves existing records',()=>{const csv=parseCSV(readFileSync(new URL('../data/demo-leads.csv',import.meta.url),'utf8'));const result=prepareImport(csv,mapping);assert.equal(result.accepted.length,40);assert.equal(result.rejected.length,0);assert.equal(prepareImport(csv,mapping,result.accepted).rejected.length,40);assert.ok(result.accepted.some(r=>warnings(r).includes('email')));});
+test('quoted commas, escaped quotes, multiline fields, BOM and CRLF',()=>{assert.deepEqual(parseCSV('\uFEFFCompany,Note\r\n"Acme, Inc","A ""new""\nline"\r\n').rows,[['Acme, Inc','A "new"\nline']]);});
+test('malformed CSV and oversize imports are rejected',()=>{for(const text of ['a,a\n1,2','a,b\n1','a,b\n"bad,2','a,b\n"ok"wrong,2','a,b\n'+Array(501).fill('1,2').join('\n')])assert.throws(()=>parseCSV(text));});
+test('validation handles unknowns, invalid numbers and case insensitive duplicates',()=>{const data=parseCSV('company,email,office_employees,avg_daily_onsite\nA,A@example.com,,\nB,a@example.com,20,10\nC,c@example.com,-2,1\nD,d@example.com,10,11\nE,bad,20,10');const result=prepareImport(data,{company:'company',email:'email',office_employees:'office_employees',avg_daily_onsite:'avg_daily_onsite'});assert.equal(result.accepted.length,1);assert.equal(result.accepted[0].office_employees,'');assert.equal(result.rejected.length,4);});
+test('missing email allowed with stable ID; required mappings and repeated mapping rejected',()=>{const csv=parseCSV('Company,ID\nAcme,one');assert.equal(prepareImport(csv,{company:'Company',lead_id:'ID'}).accepted.length,1);assert.throws(()=>prepareImport(csv,{company:'Company'}));assert.throws(()=>prepareImport(csv,{company:'Company',email:'Company'}));});

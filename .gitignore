@@ -1,0 +1,38 @@
+# Private runtime state: database, encryption key, OAuth tokens, logs and locks.
+.local/
+
+# Dependencies and generated files.
+# TypeScript emits compatible JavaScript beside the canonical .ts/.mts sources.
+/app/**/*.mjs
+/app/app.js
+/server/**/*.mjs
+node_modules/
+__pycache__/
+*.pyc
+*.log
+coverage/
+.DS_Store
+Thumbs.db
+
+# Environment and downloaded OAuth/private-key files, wherever copied.
+.env
+.env.*
+!.env.example
+client_secret*.json
+credentials*.json
+token.json
+tokens.json
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Only the two synthetic fixtures are distributed; other contact files stay local.
+/data/*
+!/data/demo-leads.csv
+!/data/renamed-columns-leads.csv
+
+# Historical local planning notes are not distributed.
+/business-and-build-brief.md

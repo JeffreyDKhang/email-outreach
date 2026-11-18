@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": [
+      "ES2023",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "node"
+    ],
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": false
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.mts",
+    "server/**/*.ts",
+    "server/**/*.mts",
+    "tests/types/**/*.ts"
+  ]
+}

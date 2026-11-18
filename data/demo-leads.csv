@@ -1,0 +1,41 @@
+lead_id,first_name,last_name,email,company,job_title,city,industry,office_employees,avg_daily_onsite,purchasing_method,company_fact,fact_source,data_origin
+OP-001,Alex,Chen,lead01@example.com,Amber Desk Studio,Office Manager,Toronto,Consulting,25,18,manual shopping,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-002,Sam,Chen,lead02@example.com,Birchline Accounting,Workplace Manager,Mississauga,Design,40,25,ad hoc orders,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-003,Jordan,Chen,lead03@example.com,Cedar Compass Design,Operations Manager,Markham,Software,65,40,manual shopping,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-004,Taylor,Chen,lead04@example.com,Dovebridge Consulting,People Manager,Toronto,Accounting,90,55,ad hoc orders,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-005,Morgan,Chen,lead05@example.com,Elm Harbor Software,HR Manager,Mississauga,Marketing,120,75,manual shopping,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-006,Casey,Chen,lead06@example.com,Fernpath Legal,People Operations Manager,Markham,Consulting,150,90,ad hoc orders,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-007,Jamie,Chen,lead07@example.com,Golden Kite Media,Office Manager,Toronto,Design,25,18,manual shopping,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-008,Riley,Chen,lead08@example.com,Hearthstone Analytics,Workplace Manager,Mississauga,Software,40,25,ad hoc orders,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-009,Alex,Patel,lead09@example.com,Ivory Trail Recruiting,Operations Manager,Markham,Accounting,65,40,manual shopping,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-010,Sam,Patel,lead10@example.com,Juniper Finch Finance,People Manager,Toronto,Marketing,90,55,ad hoc orders,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-011,Jordan,Patel,lead11@example.com,Kindred Maple Studio,HR Manager,Mississauga,Consulting,120,75,manual shopping,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-012,Taylor,Patel,lead12@example.com,Lantern Bay Systems,People Operations Manager,Markham,Design,150,90,ad hoc orders,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-013,Morgan,Patel,lead13@example.com,Meadow Arc Architects,Office Manager,Toronto,Software,25,18,manual shopping,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-014,Casey,Patel,lead14@example.com,North Petal Insurance,Workplace Manager,Mississauga,Accounting,40,25,ad hoc orders,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-015,Jamie,Patel,lead15@example.com,Oak Ribbon Marketing,Operations Manager,Markham,Marketing,65,40,manual shopping,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-016,Riley,Patel,lead16@example.com,Pebble Peak Advisory,People Manager,Toronto,Consulting,90,55,ad hoc orders,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-017,Alex,Martin,lead17@example.com,Quartz Nest Research,HR Manager,Mississauga,Design,15,8,existing supplier,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-018,Sam,Martin,lead18@example.com,River Loom Engineering,People Operations Manager,Markham,Software,15,8,existing supplier,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-019,Jordan,Martin,lead19@example.com,Spruce Lantern Partners,Office Manager,Toronto,Accounting,15,8,existing supplier,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-020,Taylor,Martin,lead20@example.com,Tandem Grove Digital,Workplace Manager,Mississauga,Marketing,15,8,existing supplier,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-021,Morgan,Martin,lead21@example.com,Umber Shore Services,Operations Manager,Markham,Consulting,15,8,existing supplier,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-022,Casey,Martin,lead22@example.com,Velvet Pine Creative,People Manager,Toronto,Design,15,8,existing supplier,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-023,Jamie,Martin,lead23@example.com,Willow Crest Labs,HR Manager,Ottawa,Software,120,75,manual shopping,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-024,Riley,Martin,lead24@example.com,Yellow Finch Strategy,People Operations Manager,Vancouver,Accounting,150,90,ad hoc orders,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-025,Alex,Singh,lead25@example.com,Acorn Harbor Group,Office Manager,Montreal,Marketing,25,18,manual shopping,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-026,Sam,Singh,lead26@example.com,Bluebell Ridge Design,Workplace Manager,Calgary,Consulting,40,25,ad hoc orders,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-027,Jordan,Singh,lead27@example.com,Copper Grove Systems,Operations Manager,Markham,Design,65,2,no pantry,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-028,Taylor,Singh,lead28@example.com,Driftwood Finch Agency,People Manager,Toronto,Software,90,2,no pantry,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-029,Morgan,Singh,lead29@example.com,Evergreen Loop Advisors,HR Manager,Mississauga,Accounting,120,2,no pantry,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-030,Casey,Singh,lead30@example.com,Fable Stone Studio,Sales Representative,Markham,Marketing,150,90,ad hoc orders,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-031,Jamie,Singh,lead31@example.com,Garnet Lake Partners,Software Developer,Toronto,Consulting,25,18,manual shopping,The office recently added a shared kitchen.,Synthetic demo scenario,synthetic
+OP-032,Riley,Singh,,Hazel Compass Media,Workplace Manager,Mississauga,Design,40,25,ad hoc orders,The team is moving into a larger office.,Synthetic demo scenario,synthetic
+OP-033,Alex,Lee,lead33@example.com,Indigo Birch Research,Operations Manager,Markham,Software,,40,manual shopping,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-034,Sam,Lee,lead34@example.com,Jade Meadow Consulting,People Manager,Toronto,Accounting,90,,ad hoc orders,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-035,Jordan,Lee,lead35@example.com,Kestrel Elm Digital,HR Manager,,Marketing,120,75,manual shopping,The company recently opened this office.,Synthetic demo scenario,synthetic
+OP-036,Taylor,Lee,lead36@example.com,Linden Cove Services,People Operations Manager,Markham,Consulting,150,90,ad hoc orders,,,synthetic
+OP-037,Morgan,Lee,lead37@example.com,Marigold Trail Group,Office Manager,Toronto,Design,25,18,manual shopping,,,synthetic
+OP-038,Casey,Lee,lead38@example.com,Nutmeg Harbor Analytics,Workplace Manager,Mississauga,Software,300,180,existing supplier,The office is adding ten onsite roles.,Synthetic demo scenario,synthetic
+OP-039,Jamie,Lee,lead39@example.com,Orchard Kite Studio,Operations Manager,Markham,Accounting,8,4,manual shopping,The team now has three shared office days each week.,Synthetic demo scenario,synthetic
+OP-040,Riley,Lee,lead40@example.com,Pineglass Advisory,People Manager,Toronto,Marketing,200,100,ad hoc orders,The company recently opened this office.,Synthetic demo scenario,synthetic
